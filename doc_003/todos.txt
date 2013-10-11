@@ -1,0 +1,13 @@
+- login form - OK
+- register
+- list messages
+- pager messages
+- insert new message
+- check if role is admin. if yes, enable delete button
+-  
+- create(CRUD) new messages
+- 
+
+000 000 000
+100	100	100 ->444
+011	011	110	->336

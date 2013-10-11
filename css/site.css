@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.copyleft{
+	text-align: center;
+	margin-top: 20px;
+	/*border: 1px dashed green;*/
+}
+
+#header{
+	padding: 10px;
+	text-align: right;
+	display: block;
+	height: 50px;
+	overflow: hidden;
+	border-bottom: 1px solid #333;
+	background-color: #EEE;
+}
+
+#content{
+	display: block;
+	margin: 20px 10px;
+	/*border: 1px dashed #eee;*/
+}
+
+h1{
+	margin-bottom: 30px;
+}
+
+
+table td{	vertical-align: top; }
+table,tr, td{
+	margin: 0;
+}
+.list_even{
+background-color: white;
+}
+
+.list_odd{
+	background-color: #ccc;
+}
+
+table.list td{
+	padding 10px;
+}
+
+.err{
+	border: 1px solid red;
+	/*background-color: #cFF;*/
+	background-color: white;
+	color: red;
+	padding: 5px 10px;
+}
+
+/* paging style start */
+.paging {
+	position:relative;
+	align: center;
+	text-align: center;
+	background-color: transparent;
+	height: 20px;
+	width: 100%;
+	margin: 20px 0px 0 5px;
+	padding-right: 10px;
+}
+
+.paging td {
+	vertical-align: middle;
+	padding-bottom: 10px;
+}
+
+.paging a{
+	color: #FF6600;
+}
+
+
+.paging .active{
+	font-weight: bold;
+}
+
+.paging .previous a, .paging .next a {
+	display: block;
+	cursor: pointer;
+	padding: 0;
+	color: #FF6600;
+}
+
+.paging .previous, .paging .next, .paging .previous a, .paging .next a {
+	width: 40px;
+}
+
+.paging a {
+	padding: 0 2px;
+}
+
+/*end paging */
